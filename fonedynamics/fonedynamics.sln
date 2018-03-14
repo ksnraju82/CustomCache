@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fonedynamics", "fonedynamics\fonedynamics.csproj", "{DC7B2E47-A9B5-4287-A2E5-2677F8338158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_fonedynamics", "Test_fonedynamics\Test_fonedynamics.csproj", "{7091D729-C5F0-4E4F-9815-21FB73AC7A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7B2E47-A9B5-4287-A2E5-2677F8338158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7B2E47-A9B5-4287-A2E5-2677F8338158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7B2E47-A9B5-4287-A2E5-2677F8338158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7B2E47-A9B5-4287-A2E5-2677F8338158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7091D729-C5F0-4E4F-9815-21FB73AC7A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7091D729-C5F0-4E4F-9815-21FB73AC7A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7091D729-C5F0-4E4F-9815-21FB73AC7A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7091D729-C5F0-4E4F-9815-21FB73AC7A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

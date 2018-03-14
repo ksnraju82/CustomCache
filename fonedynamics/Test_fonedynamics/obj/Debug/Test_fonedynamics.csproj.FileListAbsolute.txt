@@ -1,0 +1,8 @@
+D:\WebProjects\fonedynamics\Test_fonedynamics\bin\Debug\Test_fonedynamics.dll
+D:\WebProjects\fonedynamics\Test_fonedynamics\bin\Debug\Test_fonedynamics.pdb
+D:\WebProjects\fonedynamics\Test_fonedynamics\bin\Debug\fonedynamics.exe
+D:\WebProjects\fonedynamics\Test_fonedynamics\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\WebProjects\fonedynamics\Test_fonedynamics\bin\Debug\fonedynamics.pdb
+D:\WebProjects\fonedynamics\Test_fonedynamics\obj\Debug\Test_fonedynamics.csprojResolveAssemblyReference.cache
+D:\WebProjects\fonedynamics\Test_fonedynamics\obj\Debug\Test_fonedynamics.dll
+D:\WebProjects\fonedynamics\Test_fonedynamics\obj\Debug\Test_fonedynamics.pdb
