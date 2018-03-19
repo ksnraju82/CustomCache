@@ -18,7 +18,7 @@ namespace CacheLibrary
 
         //The logic to capture the least recently added/updated was to,
         //remove the added/updated item from the list and add it back again so that it will
-        //take the last place in the list and list[list.count - 1] will act as a key to remove it from dict.
+        //take the last place in the list, so the first item list[0] will be the least used.
         public void AddOrUpdate(TKey key, TValue value)
         {
             lock (dict)
@@ -35,8 +35,8 @@ namespace CacheLibrary
                         dict.Add(key, value);
                         if (list.Count == size)
                         {
-                            dict.Remove(list[list.Count - 1]);
-                            list.Remove(list[list.Count - 1]);
+                            dict.Remove(list[0]);
+                            list.Remove(list[0]);
                         }
                     }
                     list.Add(key);
@@ -46,7 +46,7 @@ namespace CacheLibrary
 
         //The logic to capture the least recently Retrieved was to,
         //remove the Retrieved item from the list and add it back again so that it will
-        //take the last place in the list and list[list.count - 1] will act as a key to remove it from dict.
+        //take the last place in the list, so the first item list[0] will be the least used.
         public bool TryGetValue(TKey key, out TValue value)
         {
             try
