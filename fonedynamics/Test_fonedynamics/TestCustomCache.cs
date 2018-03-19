@@ -49,7 +49,7 @@ namespace CacheLibrary.Tests
             //Act
             bool initial = _cache.TryGetValue(2, out strOutValue);
             _cache.AddOrUpdate(4, "test4");
-            bool actual = _cache.TryGetValue(1, out strOutValue);
+            bool actual = _cache.TryGetValue(2, out strOutValue);
 
             //Assert
             Assert.AreEqual(false, actual);
@@ -66,7 +66,7 @@ namespace CacheLibrary.Tests
             _cache.AddOrUpdate(3, "updatetest3");
 
             _cache.AddOrUpdate(4, "test4");
-            bool actual = _cache.TryGetValue(1, out strOutValue);
+            bool actual = _cache.TryGetValue(3, out strOutValue);
 
             //Assert
             Assert.AreEqual(false, actual);
@@ -83,7 +83,7 @@ namespace CacheLibrary.Tests
             _cache.AddOrUpdate(4, "test4");
 
             //Act
-            bool actual = _cache.TryGetValue(3, out strOutValue);
+            bool actual = _cache.TryGetValue(1, out strOutValue);
 
             //Assert
             Assert.AreEqual(false, actual);
