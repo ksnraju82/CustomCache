@@ -4,3 +4,6 @@ D:\WebProjects\fonedynamics\fonedynamics\bin\Debug\fonedynamics.pdb
 D:\WebProjects\fonedynamics\fonedynamics\obj\Debug\fonedynamics.csprojResolveAssemblyReference.cache
 D:\WebProjects\fonedynamics\fonedynamics\obj\Debug\fonedynamics.exe
 D:\WebProjects\fonedynamics\fonedynamics\obj\Debug\fonedynamics.pdb
+D:\WebProjects\fonedynamics\CustomCache\fonedynamics\fonedynamics\bin\Debug\fonedynamics.exe.config
+D:\WebProjects\fonedynamics\CustomCache\fonedynamics\fonedynamics\obj\Debug\fonedynamics.exe
+D:\WebProjects\fonedynamics\CustomCache\fonedynamics\fonedynamics\obj\Debug\fonedynamics.pdb
